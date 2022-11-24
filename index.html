@@ -12,8 +12,9 @@
 <body>
 
     <div class="auto-registry pale-text">
-        <p class="auto-registry__text">Уже есть аккаунт на Яндексе? <a class="help__link" href="#">Войти</a></p>
+        <p class="auto-registr__text">Уже есть аккаунт на Яндексе? <a class="help__link" href="#">Войти</a></p>
     </div>
+
     <div class="wrapper">
         <main class="info">
             <div class="yandex-id">
@@ -33,11 +34,12 @@
                     <li>© 2001-2022,<a class="help__link_copyright help__link" href="#">Яндекс</a></li>
                 </ul>
             </div>
+        </main>
 
-            <aside class="aside">
-                <div class="wrapper-registry">
-                    <h2 class="aside__header header">Регистрация</h2>
-                    <form class="registry-form" action="#" id="registryForm" '>
+        <aside class="aside">
+            <div class="wrapper-registry">
+                <h2 class="aside__header header">Регистрация</h2>
+                <form class="registry-form" action="#" id="registryForm">
                     <input class="registry-form__input" type="text" id="name" placeholder="Имя">
                     <input class="registry-form__input" type="text" id="lastName" placeholder="Фамилия">
                     <input class="registry-form__input" type="text" id="login" placeholder="Придумайте логин">
@@ -50,16 +52,20 @@
                         <label class="terms__desc" for="terms">
                             <input class="registry-form__checkbox_terms" type="checkbox" id="terms" checked>Я принимаю условия Пользовательского соглашения и даю своё согласие Яндексу на обработку моей персональной информации на условиях, определенных Политикой конфиденциальности.
                         </label>
-                        <label for="adds_desc">
-                            <input class="registry-form__checkbox_promo" type="checkbox" id="adds_desc">Я не хочу получать рекламу и другие предложения данного сервиса Яндекса
+                        <label for="adds">
+                            <input class="registry-form__checkbox_promo" type="checkbox" id="adds">Я не хочу получать рекламу и другие предложения данного сервиса Яндекса
                         </label>
                     </div>
                 </form>
             </div>
 
         </aside>
+
     </div>
-    <script src="./scripts.js"></script>
+
+    <script src="./scripts.js">
+    </script>
 </body>
+
 
 </html>
